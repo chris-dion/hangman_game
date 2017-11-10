@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body background = "assets/images/background.png">
+	<audio autoplay loop>
+		<source src="assets/music/hotline2.mp3" type="audio/mpeg">
+	</audio>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2"></div>
+
+			<div class="col-lg-7">
+				  <img id="logo-main" src="assets/images/title.png" width="700" alt="logo">
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-lg-2"></div>
+
+			<div class="col-lg-8">
+				<h1>Use you keyboard to guess the letters</h1>
+				<p id="guess_board"></p>
+				<p id="guess_so_far">Guesses so far: </p>
+				<p id="misses">You have 6 more incorrect guesses before you lose</p>
+				<p id="wins">You have won: 0</p>
+				<p id="loss">You have loss: 0</p>
+				<p id="console_messages"></p>
+			</div>
+
+		</div>
+	</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
