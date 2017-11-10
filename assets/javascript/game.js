@@ -89,8 +89,6 @@ document.onkeyup = function(event){
 	prev_guess = false;
 	current_letter = event.key;
 	current_letter = current_letter.toLowerCase();
-
-	console.log ("the current letter is: " + current_letter );
 	console.log ("the current word is: " + chosen_q );
 
 	//scans previous made guess so to prevent repeats
